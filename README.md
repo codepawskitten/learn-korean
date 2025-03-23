@@ -16,3 +16,7 @@ This project is designed to help you learn the basics of the Korean language, in
 2. **How to Read**: Learn the structure of the Korean writing system, how Hangul is organized, and how vowels and consonants are combined to form syllables.
 3. **Practice**: Test your knowledge by practicing words and sentences. The practice section will help you get used to common phrases and words in Korean.
 4. **Language Toggle**: You can switch between English and Spanish to follow along in the language of your choice.
+
+## Website Link
+
+Visit the website: [Learn Korean](https://codepawskitten.github.io/learn-korean/)
