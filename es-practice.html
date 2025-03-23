@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korean Text-to-Speech</title>
     <link rel="stylesheet" href="practice.css">
 </head>
 
@@ -11,20 +14,21 @@
         <tr>
             <th>Coreano</th>
             <th>Español</th>
+            <th>Escuchar</th>
         </tr>
-        <tr><td>네 (ne)</td><td>si</td></tr>
-        <tr><td>아니요 (a-ni-yo)</td><td>luna</td></tr>
-        <tr><td>우유 (u-yu)</td><td>leche</td></tr>
-        <tr><td>친구 (chin-gu)</td><td>amigo / amiga</td></tr>
-        <tr><td>어머니 (eo-meo-ni)</td><td>mamá</td></tr>
-        <tr><td>고양이 (go-yang-i)</td><td>gato</td></tr>
-        <tr><td>남생이 (nam-saeng-i)</td><td>tortuga</td></tr>
-        <tr><td>남자친구 (nam-ja chin-gu)</td><td>novio</td></tr>
-        <tr><td>여자친구 (yeo-ja chin-gu)</td><td>novia</td></tr>
-        <tr><td>안녕하세요 (an-nyeong-ha-se-yo)</td><td>hola</td></tr>
-        <tr><td>우리는 친구다 (u-ri-neun chin-gu-da)</td><td>Nosotros somos amigos</td></tr>
-        <tr><td>나는 사과를 먹는다 <br> (na-neun sa-gwa-reul meog-neun-da)</td><td>Yo como una manzana</td></tr>
-        <tr><td>제가 제일 좋아하는 음식은 피자예요 <br> (je-ga je-il joh-a-ha-neun eum-sig-eun pi-ja-ye-yo)</td><td>Mi comida favorita es la pizza</td></tr>
+        <tr><td>네<br>(ne)</td><td>si</td><td><button onclick="speakKorean('네')">🔊</button></td></tr>
+        <tr><td>아니요<br>(a-ni-yo)</td><td>no</td><td><button onclick="speakKorean('아니요')">🔊</button></td></tr>
+        <tr><td>우유<br>(u-yu)</td><td>leche</td><td><button onclick="speakKorean('우유')">🔊</button></td></tr>
+        <tr><td>친구<br>(chin-gu)</td><td>amigo / amiga</td><td><button onclick="speakKorean('친구')">🔊</button></td></tr>
+        <tr><td>어머니<br>(eo-meo-ni)</td><td>mamá</td><td><button onclick="speakKorean('어머니')">🔊</button></td></tr>
+        <tr><td>고양이<br>(go-yang-i)</td><td>gato</td><td><button onclick="speakKorean('고양이')">🔊</button></td></tr>
+        <tr><td>남생이<br>(nam-saeng-i)</td><td>tortuga</td><td><button onclick="speakKorean('남생이')">🔊</button></td></tr>
+        <tr><td>남자친구<br>(nam-ja chin-gu)</td><td>novio</td><td><button onclick="speakKorean('남자친구')">🔊</button></td></tr>
+        <tr><td>여자친구<br>(yeo-ja chin-gu)</td><td>novia</td><td><button onclick="speakKorean('여자친구')">🔊</button></td></tr>
+        <tr><td>안녕하세요<br>(an-nyeong-ha-se-yo)</td><td>hola</td><td><button onclick="speakKorean('안녕하세요')">🔊</button></td></tr>
+        <tr><td>우리는 친구다<br>(u-ri-neun chin-gu-da)</td><td>Nosotros somos amigos</td><td><button onclick="speakKorean('우리는 친구다')">🔊</button></td></tr>
+        <tr><td>나는 사과를 먹는다<br>(na-neun sa-gwa-reul meog-neun-da)</td><td>Yo como una manzana</td><td><button onclick="speakKorean('나는 사과를 먹는다')">🔊</button></td></tr>
+        <tr><td>제가 제일 좋아하는 음식은 피자예요<br>(je-ga je-il joh-a-ha-neun eum-sig-eun pi-ja-ye-yo)</td><td>Mi comida favorita es la pizza</td><td><button onclick="speakKorean('제가 제일 좋아하는 음식은 피자예요')">🔊</button></td></tr>
     </table>
 </body>
 </html>
