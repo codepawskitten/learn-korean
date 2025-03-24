@@ -150,7 +150,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 180px;
-    height: 60px;
+    height: 60px;   
     color: white;
     font-size: 24px;
     font-weight: bold;
@@ -166,6 +166,6 @@ body {
     font-weight: bold;
 }
 
-.initial { background: #e093ff; }
-.vowel { background: #93ff96; }
-.final {background: #ffbb93;}
+.initial { background: #cf56ff; }
+.vowel { background: #56ff64; }
+.final {background: #ff9756;}
